@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.one {
+    background-image:url(./IMG_20220708_160008_448_1-removebg-preview\ \(1\).png); 
+    
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .two{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 1rem;
+  }
+
+body, html {
+    height: 100%;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+   
+  }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: blue;
+  }
+  .contact-section {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    background-color: #222;
+    border: 1px solid #444;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #888;
+  }
+  
+  .contact-form button {
+    padding: 12px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ccc;
+  }
+  .contact-ul {
+    display: flex;
+    justify-content:right;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding: 5%;
+    font-size: large;
+    background-color: #888;
+  }
+  .site-footer {
+    background-color: #002244;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .footer-content p {
+    margin: 10px 0;
+  }
+  
+  .social-icons {
+    margin: 15px 0;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 12px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #1e90ff;
+  }
+  
+  .footer-credit {
+    font-size: 0.9rem;
+    color: #cccccc;
+  }
+  section {
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1e90ff;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #1e90ff;
+  }
+  
+  section h3 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    color: #0077cc;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  section h4 {
+    font-size: 1.2rem;
+    margin-top: 25px;
+    color: #003366;
+  }
+  
+  section p {
+    margin: 10px 0;
+  }
+  
+  section div {
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-left: 3px solid #1e90ff;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  
